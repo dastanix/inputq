@@ -3,7 +3,7 @@
     width: 1440px;
   }
 }
-@media (max-width: 1400px) and (max-width: 295px) {
+@media (max-width: 1400px) and (max-width: 296px) {
   .header {
     width: 300px;
   }
