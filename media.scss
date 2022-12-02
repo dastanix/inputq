@@ -1,0 +1,21 @@
+@media (max-width: 1400px) {
+  .container{
+    width: 1440px;
+  }
+
+@media (max-width: 295px) {
+  .header{
+    width: 300px;
+  }
+  #header .header--global {
+    width: 235px;
+  }
+  #header .header--global--input input {
+    margin: 10px -8px;
+    width: 215px;
+  }
+  body{
+    overflow-x:hidden;
+  }
+}
+}

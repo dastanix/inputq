@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  background: url("../img/logo.webp");
+  font-family: "roboto", sans-serif;
+}
+
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 180px;
+}
+#header .header--global {
+  padding-left: 30px;
+  padding-top: 50px;
+  width: 350px;
+  height: 330px;
+  background: white;
+  border-radius: 20px;
+}
+#header .header--global h1 {
+  font-size: 30px;
+  color: black;
+  padding-bottom: 10px;
+}
+#header .header--global--input input {
+  margin: 10px 0;
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid red;
+  outline: red;
+}
+#header .header--global--input input::placeholder {
+  color: green;
+}
+#header .header--global--input--btn button {
+  margin-top: 15px;
+  width: 120px;
+  height: 40px;
+  margin-left: 90px;
+  background: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+#header .header--global--input--btn button:hover {
+  background: rgb(255, 248, 248);
+  color: black;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
